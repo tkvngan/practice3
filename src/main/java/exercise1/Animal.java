@@ -1,13 +1,16 @@
 package exercise1;
 
 public class Animal {
+    String name;
+    int age;
 
     public Animal(String name, int age) {
-        throw new UnsupportedOperationException("TODO");
+        this.name = name;
+        this.age = age;
     }
 
     public void makeSound() {
-        throw new UnsupportedOperationException("TODO");
+        System.out.println("Generic animal sound");
     }
 }
 
